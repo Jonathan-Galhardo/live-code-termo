@@ -12,7 +12,7 @@ Lista de execução de tarefas para resolver o problema
 - [X] Interface para entrar 5 letras
 - [X] Enviar a palavra para verificação
 - [X] Verificar se a palavra digitada existe na lista
-    - [X] Se a palvra digitada não for válida, dar um erro
+    - [X] Se a palavra digitada não for válida, dar um erro
     - [X] Normalizar as palavras digitadas
     - [X] Verificar se a palavra digitada existe na lista
 
