@@ -1,17 +1,19 @@
 body {
-    background: #777777;
-    font-family: sans-serif;
+    background: #504a4b;
     width: 60vw;
     margin: 0 20vw;
     text-align: center;
     padding: 1em 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Staatliches', cursive;
 }
 
 .titulo {
     color: #FFFFFF;
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 0 0 2em;
-}
+    }
 
 .area-resposta {
     background: #009AFE;
@@ -22,6 +24,7 @@ body {
     color: #FFFFFF;
     margin: 1em 0;
     display: none;
+    font-size: 2em;
 }
 
 
@@ -33,15 +36,19 @@ body {
 
 .chutes-registrados li {
     display: flex;
-    gap: 2px;
+    gap: 0.3em;
     justify-content: center;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.3em;
+    font-size:1.5em;
 }
 
 .chutes-registrados span {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
+    font-size:1.5em;
+    width: 1.5em;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #282324;
     color: #FFFFFF;
     border-radius: 6px;
@@ -49,9 +56,21 @@ body {
 }
 
 .chutes-registrados .letra-certa {
+    width: 1.5em;
     background: #279788;
+    font-size:1.5em;
+    height: 1.5em;
 }
 
 .chutes-registrados .letra-existe {
+    width: 1.5em;
+    height: 1.5em;
     background: #CF9F62;
+    font-size:1.5em;
 }
+
+.tentativas{
+    font-size: 1.5em;
+    color: aliceblue;
+}
+
